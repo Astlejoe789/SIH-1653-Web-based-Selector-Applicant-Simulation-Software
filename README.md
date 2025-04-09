@@ -28,13 +28,13 @@ We propose a Web-Based Interview Simulation Platform consisting of the following
 
 Login System
 
-Separate login for Interviewer (HR) and Candidate.
+Separate login for Interviewer  and Candidate.
 
 Role-based access control.
 
 Interview Management
 
-HR can create, edit, and ask questions.
+interviewer can create, edit, and ask questions.
 
 Candidates can view and answer questions.
 
@@ -50,7 +50,7 @@ System calculates the total score for each candidate based on their response rel
 
 Result Dashboard
 
-HR can view individual scores and overall performance reports.
+interviewer can view individual scores and overall performance reports.
 
 Boardroom Simulation
 
