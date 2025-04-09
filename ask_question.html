@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ask Question - HR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Ask a Question to Candidate</h2>
+        <form id="questionForm">
+            <textarea id="question" placeholder="Type your question here..." required></textarea><br>
+            <button type="submit" class="button">Send Question</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("questionForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const question = document.getElementById("question").value;
+            localStorage.setItem("question", question);
+            alert("Question sent to candidate!");
+            document.getElementById("question").value = "";
+        });
+    </script>
+</body>
+</html>
