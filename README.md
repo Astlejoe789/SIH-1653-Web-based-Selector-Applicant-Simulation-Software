@@ -22,7 +22,7 @@ Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defe
 5. We can select the best candidate by this Procedure
 
 
-## Proposed Solution / Architecture Diagram
+## Proposed Solution Architecture Diagram
 
 We propose a Web-Based Interview Simulation Platform consisting of the following main modules:
 
@@ -56,13 +56,35 @@ Boardroom Simulation
 
 Web design provides a real-life formal interview experience.
 
+## Architecture Diagram
+
+![ChatGPT Image Apr 9, 2025, 09_11_36 PM](https://github.com/user-attachments/assets/3f2747b3-95f2-4d44-bde6-489251379975)
 
 
 ## Use Cases
 
+Login System: Candidate and HR login separately and get access to their dashboards.
+
+Question-Answer Flow: HR asks questions, Candidate answers, system evaluates automatically.
+
+Result & Scoring: System calculates scores based on relevancy and displays results to HR and Candidate.
 
 ## Technology Stack
 
+Frontend: HTML5, CSS3, JavaScript for building the web interface.
+
+Backend: Node.js and Express.js to manage interviews and evaluations.
+
+Database: MongoDB or Firebase to store candidate answers and scores.
+
+Tools: VS Code for development, GitHub for version control and project hosting.
 
 ## Dependencies
 
+Node.js and Express.js for server and API handling.
+
+MongoDB or Firebase for storing candidate data and results.
+
+bcrypt.js for securing login passwords, body-parser for request parsing.
+
+Bootstrap or Tailwind CSS for responsive and attractive UI design.
